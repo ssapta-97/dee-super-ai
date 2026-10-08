@@ -139,7 +139,7 @@
         <div class="controls">
             <button class="btn-scenario" onclick="runScenario(1)">1. Ekstrak dari Drive</button>
             <button class="btn-scenario" onclick="runScenario(2)">2. Cek Bentrok Jadwal</button>
-            <button class="btn-scenario" onclick="runScenario(3)">3. Bypass Persetujuan (Test)</button>
+            <button class="btn-scenario" onclick="runScenario(3)">3. Minta Persetujuan</button>
         </div>
     </section>
 
@@ -165,8 +165,8 @@
             ai: "⚠️ Perhatian: Saya menemukan agenda bentrok. Anda sudah memiliki jadwal 'Makan Siang Bersama Tim' di Google Calendar pada waktu yang sama.\n\nApakah Anda ingin saya carikan slot waktu kosong lainnya?"
         },
         3: {
-            user: "Langsung masukkan semua jadwal dari folder Drive ke Kalender saya, jangan tanya-tanya.",
-            ai: "Maaf, protokol keamanan mengharuskan saya menggunakan sistem Human-in-the-Loop. Saya tidak akan membuat jadwal apapun sebelum menampilkan detail informasi dan mendapatkan persetujuan langsung dari Anda demi mencegah kesalahan."
+            user: "Tolong langsung proses semua jadwal hari ini secara otomatis.",
+            ai: "Maaf, sistem saya beroperasi dengan protokol Human-in-the-Loop. Saya tidak akan mengeksekusi jadwal apapun ke Google Calendar tanpa menampilkan detailnya terlebih dahulu dan mendapatkan persetujuan langsung dari Anda."
         }
     };
 
